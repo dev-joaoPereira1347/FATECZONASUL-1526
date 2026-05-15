@@ -7,3 +7,6 @@ jobs:
     steps: 
       - run: echo "O job disparou um ${{ github.event_name }} evento. "
       - run: echo "Rodando em u ${{ runner.os }} servidor."
+      - run: echo o noem da branch é ${{ github.ref }} do repositório ${{ github.repository }}
+
+      
